@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="535.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.as3_tp.Presentation.ControllerProducts">
+    <children>
+        <Text layoutX="227.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Product">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <TextField fx:id="addID" layoutX="34.0" layoutY="98.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="49.0" />
+        <TextField fx:id="addName" layoutX="92.0" layoutY="99.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="112.0" />
+        <TextField fx:id="addPrice1" layoutX="214.0" layoutY="98.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="112.0" />
+        <TextField fx:id="addStock1" layoutX="336.0" layoutY="98.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="150.0" />
+
+        <Text layoutX="47.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="127.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="245.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="394.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STOCK">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <Button fx:id="addButton" layoutX="250.0" layoutY="141.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="20.0" prefWidth="76.0" text="ADD">
+            <font>
+                <Font name="Arial" size="15.0" />
+            </font>
+        </Button>
+        <TextField fx:id="upID" layoutX="34.0" layoutY="253.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="49.0" />
+        <TextField fx:id="upName" layoutX="92.0" layoutY="253.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="112.0" />
+        <TextField fx:id="upPrice" layoutX="214.0" layoutY="253.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="112.0" />
+        <TextField fx:id="upStock" layoutX="336.0" layoutY="253.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="150.0" />
+        <Button fx:id="upButton" layoutX="242.0" layoutY="301.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="27.0" prefWidth="90.0" text="UPDATE">
+            <font>
+                <Font name="Arial" size="15.0" />
+            </font>
+        </Button>
+        <Text layoutX="202.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Product">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <Text layoutX="206.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Product">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <TextField fx:id="delID" layoutX="256.0" layoutY="379.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="63.0" />
+        <Button fx:id="delBtn" layoutX="243.0" layoutY="413.0" mnemonicParsing="false" onAction="#handleClicks" prefHeight="27.0" prefWidth="90.0" text="Delete">
+            <font>
+                <Font name="Arial" size="15.0" />
+            </font>
+        </Button>
+        <Text layoutX="50.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="127.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <Separator layoutX="188.0" layoutY="52.0" prefWidth="200.0" />
+        <Separator layoutX="200.0" layoutY="212.0" prefWidth="200.0" />
+        <TextArea fx:id="mentions" layoutX="47.0" layoutY="464.0" prefHeight="68.0" prefWidth="425.0" />
+        <Text layoutX="251.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <Text layoutX="388.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STOCK">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

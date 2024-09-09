@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.as3_tp.Presentation.ControllerRecipe">
+    <children>
+        <TextField fx:id="idCumparator" layoutX="164.0" layoutY="35.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="35.0" />
+        <Text layoutX="25.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID cumparator" wrappingWidth="139.47149658203125">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Text>
+        <TextField fx:id="idObject" layoutX="161.0" layoutY="77.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="76.0" />
+        <Text layoutX="25.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Obiect" wrappingWidth="82.8050537109375">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text layoutX="25.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cantitate" wrappingWidth="82.8050537109375">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField fx:id="idCantitate" layoutX="161.0" layoutY="121.0" onAction="#handleClicks" prefHeight="26.0" prefWidth="76.0" />
+        <TextArea fx:id="mentions" layoutX="43.0" layoutY="172.0" prefHeight="89.0" prefWidth="267.0" />
+        <Button fx:id="addRecipe" layoutX="276.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleClicks" text="Add">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="placeRecipe" layoutX="127.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleClicks" text="PlaceOrder">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
